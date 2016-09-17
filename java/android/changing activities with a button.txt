@@ -1,0 +1,2 @@
+ Intent intent = new Intent (MainActivity.this,Chlorine.class);
+			   startActivity(intent);

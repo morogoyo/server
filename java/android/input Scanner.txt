@@ -1,0 +1,11 @@
+inport Java.util.Scanner 
+
+// declare the object 
+
+Scanner VARIABLE = new Scanner(System.in);
+
+System.out.Println(Variable );
+
+// input will be dependant on the type of the varibable 
+
+  variable.nextint();

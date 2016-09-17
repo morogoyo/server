@@ -1,0 +1,23 @@
+package trainingApplication;
+
+import javax.swing.JComboBox;
+
+public class RightPane {
+	
+	private JComboBox box ;
+	
+	private static String []{"Mercedes","Bmw","honda","nissan"}
+	
+	public RightPane(){
+		
+		
+		box = new JComboBox();
+		
+		
+		
+	}
+	
+	
+	
+
+}

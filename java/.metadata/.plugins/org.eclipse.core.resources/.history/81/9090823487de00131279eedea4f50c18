@@ -1,0 +1,42 @@
+package trainingApplication;
+
+import java.awt.GridBagLayout;
+
+import javax.swing.JButton;
+import javax.swing.JFrame;
+import javax.swing.JLabel;
+import javax.swing.JTextField;
+
+public class MainFrame extends JFrame {
+	
+	
+	public MainFrame(){
+		
+		setTitle("Main Frame");
+		setLayout(new GridBagLayout());
+		setVisible(true);
+		setSize(400, 600);
+		setDefaultCloseOperation(EXIT_ON_CLOSE);
+		
+		
+		
+		JLabel lb1 = new JLabel("First Name");
+		JLabel lb2 = new JLabel("Last Name");
+		JTextField tx1 =new JTextField();
+		JTextField tx2 =new JTextField();
+		JButton b = new JButton();
+		
+		
+		
+		this.add(lb1);
+		this.add(lb2);
+		this.add(tx1);
+		this.add(tx2);
+		this.add(b);
+		
+		
+	}
+	
+	
+	
+}

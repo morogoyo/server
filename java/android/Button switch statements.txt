@@ -1,0 +1,28 @@
+
+public void onClickListener
+
+switch (v.getid){
+
+case: R.id.value:
+       Action to be performed ;
+
+break;
+
+case: R.id.value:
+       Action to be performed ;
+
+break;
+
+
+
+
+
+
+
+
+
+
+
+
+
+}

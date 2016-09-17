@@ -1,0 +1,31 @@
+For example :
+
+In MainActivity :
+
+Intent intent = new Intent();
+intent.setClass(this, Other_Activity.class);
+intent.putExtra("EXTRA_ID", "SOME DATAS");
+startActivity(intent);
+
+
+
+
+
+In Other_Activity :
+
+@Override
+protected void onCreate(Bundle savedInstanceState) {
+  super.onCreate(savedInstanceState);
+  
+Bundle extras = getIntent().getExtras();
+  
+if (extras != null) {
+  
+ String datas= extras.getString("EXTRA_ID");
+   
+if (datas!= null) {
+  
+      // do stuff
+  
+     }        
+}

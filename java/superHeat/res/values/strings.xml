@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">SUPER HEAT</string>
+    <string name="action_settings">Settings</string>
+    
+    
+    <string name="OutDoorTempTextView">Out Door Temp</string>
+    <string name="WetBulbTempTextView">Wet Bulb Temp</string>
+    <string name="GaugeTempTextView">Gauge Temp</string>
+    <string name="HygrometerMoistureTextView">Hygrometer moisture reading</string>
+  
+     <string name="calculateButton">Calculate</string>
+
+
+
+
+
+</resources>

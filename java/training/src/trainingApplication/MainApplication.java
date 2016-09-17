@@ -1,0 +1,14 @@
+package trainingApplication;
+
+public class MainApplication {
+	
+	public static void main (String arg[]){
+	
+	MainFrame mf=new MainFrame();
+	LeftPane lp =new LeftPane();
+	RightPane rp= new RightPane();
+	
+	
+	
+	}
+}

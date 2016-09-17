@@ -1,0 +1,5 @@
+Iterrator<DATA TYPE> VARIABLE = Item.iterator();
+     while(itme.hasNext()){
+         do something 
+    }
+  

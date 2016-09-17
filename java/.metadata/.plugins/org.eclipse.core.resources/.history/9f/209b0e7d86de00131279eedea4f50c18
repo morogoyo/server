@@ -1,0 +1,27 @@
+package trainingApplication;
+
+import java.awt.GridBagLayout;
+
+import javax.swing.JFrame;
+
+public class MainFrame extends JFrame {
+	
+	
+	public MainFrame(){
+		
+		setTitle("Main Frame");
+		setLayout(new GridBagLayout());
+		setVisible(true);
+		setSize(400, 600);
+		setDefaultCloseOperation(EXIT_ON_CLOSE);
+		
+		
+		
+		
+		
+		
+	}
+	
+	
+	
+}

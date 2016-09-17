@@ -1,0 +1,32 @@
+package trainingApplication;
+
+import java.awt.GridBagLayout;
+
+import javax.swing.JFrame;
+import javax.swing.JLabel;
+
+public class MainFrame extends JFrame {
+	
+	
+	public MainFrame(){
+		
+		setTitle("Main Frame");
+		setLayout(new GridBagLayout());
+		setVisible(true);
+		setSize(400, 600);
+		setDefaultCloseOperation(EXIT_ON_CLOSE);
+		
+		
+		
+		JLabel lb1 = new JLabel("First number");
+		JLabel lb2 = new JLabel("Second number");
+		
+		
+		this.add(lb1);
+		this.add(lb2);
+		
+	}
+	
+	
+	
+}

@@ -1,0 +1,60 @@
+package trainingApplication;
+
+import java.awt.GridBagConstraints;
+import java.awt.GridBagLayout;
+import java.awt.Insets;
+
+import javax.swing.JButton;
+import javax.swing.JFrame;
+import javax.swing.JLabel;
+import javax.swing.JTextField;
+
+public class MainFrame extends JFrame {
+
+	private JLabel lb1;
+	private JLabel lb2;
+	private JTextField tx1;
+	private JTextField tx2;
+	private JButton b;
+
+	public MainFrame() {
+
+		setTitle("Main Frame");
+		setLayout(new GridBagLayout());
+
+		setSize(400, 600);
+		setDefaultCloseOperation(EXIT_ON_CLOSE);
+
+		lb1 = new JLabel("First Name");
+		lb2 = new JLabel("Last Name");
+		tx1 = new JTextField(20);
+		tx2 = new JTextField(20);
+		b = new JButton("Enter");
+
+		GridBagConstraints gbc = new GridBagConstraints();
+		gbc.insets = new Insets(15, 15, 15, 15);
+
+		gbc.gridx = 0;
+		gbc.gridy = 0;
+		this.add(lb1, gbc);
+
+		gbc.gridx = 0;
+		gbc.gridy = 1;
+		this.add(lb2, gbc);
+
+		gbc.gridx = 1;
+		gbc.gridy = 0;
+		this.add(tx1, gbc);
+
+		gbc.gridx = 1;
+		gbc.gridy = 1;
+		this.add(tx2, gbc);
+
+		gbc.gridx = 2;
+		gbc.gridy = 3;
+		this.add(b, gbc);
+
+		setVisible(true);
+	}
+
+}

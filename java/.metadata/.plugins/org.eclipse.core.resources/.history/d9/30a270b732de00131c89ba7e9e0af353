@@ -1,0 +1,11 @@
+package mainpanel;
+
+import javax.swing.JFrame;
+
+public class MainFrame {
+	
+	JFrame frame =new JFrame();
+	
+	frame.SetVisible();
+
+}

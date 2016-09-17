@@ -1,0 +1,7 @@
+package justPlayingAround;
+
+public class moreTesting {
+	String [] text = {"welcome!"};
+    System.out.println();
+
+}

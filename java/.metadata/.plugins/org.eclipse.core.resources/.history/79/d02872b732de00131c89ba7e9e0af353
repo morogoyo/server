@@ -1,0 +1,9 @@
+package mainpanel;
+
+public class MainPanel {
+	
+	
+	LeftPane lp =new LeftPane();
+	RightPane rp= new RightPane();
+
+}

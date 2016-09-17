@@ -1,0 +1,16 @@
+package justPlayingAround;
+
+public class moreTesting {
+	
+	
+	
+	public static void main(String[] args){
+	
+		
+		
+		String [] text = {"welcome!"};
+        System.out.println(text[1]);
+
+}
+}
+ 

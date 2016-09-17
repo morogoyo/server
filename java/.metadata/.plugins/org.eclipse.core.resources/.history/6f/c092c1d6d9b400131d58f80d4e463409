@@ -1,0 +1,21 @@
+package buttonPlay;
+
+import javax.swing.JFrame;
+
+public class Buttons {
+	
+	public static void main (String[] args ){
+		
+		
+		JFrame p = new JFrame();
+		p.size();
+		
+		
+		
+		
+		
+	}
+	
+	
+
+}

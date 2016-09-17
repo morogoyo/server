@@ -1,0 +1,55 @@
+package com.example.buttontest;
+
+import android.widget.Button;
+import android.widget.EditText;
+import android.widget.SeekBar;
+
+
+
+
+  
+
+
+
+
+
+public class  buttonsAndSeekBars {
+	
+	  EditText et;
+    Button bt, bt2;
+    int count;
+
+    SeekBar sk;
+	
+	
+	sk= (SeekBar)findViewById(R.id.seekBar1);
+	et = (EditText) findViewById(R.id.textView);
+	bt= (Button)findViewById(R.id.button);
+	bt2= (Button)findViewById(R.id.button2);
+	bt.setOnClickListener(new View.OnClickListener() {
+		
+		@Override
+		public void onClick(View v) {
+			count ++;
+			et.setText("your total is " + count);
+			
+		}
+		
+		
+	} );
+	bt2.setOnClickListener(new View.OnClickListener() {
+		
+		@Override
+		public void onClick(View v) {
+			count --;
+			et.setText("your total is " + count);
+			
+		}
+} );
+	
+	
+	sk.setOnSeekBarChangeListener(new View.OnSeekBarChangeListener());	
+	
+
+}
+}

@@ -1,0 +1,5 @@
+#Mon Mar 17 22:44:21 EDT 2014
+__DEFAULT__=false
+org.eclipse.sdk.Eclipse.master=true
+org.eclipse.help.ui.localSearch.master=true
+expression=assist
