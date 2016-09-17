@@ -1,0 +1,1 @@
+{"resourse":[{"name":"Armenian","type":"package"}]}

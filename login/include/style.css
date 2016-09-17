@@ -1,0 +1,11 @@
+.center-block {
+  top:50%;
+  left: 50%;
+  transform: translate3d(-50%,-50%, 0);
+  position: absolute;
+}
+
+.content {
+	padding: 10px 10px 10px 10px;
+	width:10%;
+}

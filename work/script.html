@@ -1,0 +1,42 @@
+<!DOCTYPE >
+
+<html>
+	<head>
+		<title>testing java script forms</title>
+	</head>
+	
+	
+	
+	<input type="text"  name="fname" id="id"/>
+	<input type="submit" onclick="passVariable();"/>
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	<script>
+           
+		function passVariable(){
+		var name = document.getElementById("id").value;
+		
+		console.log(name);
+		
+		if (name === "Rene" || "rene"){
+			console.log("the variable is there");
+			
+		}else{
+			
+			console.log("variable is not there");
+		}
+	}
+	
+	
+	
+	</script>
+	
+</html>

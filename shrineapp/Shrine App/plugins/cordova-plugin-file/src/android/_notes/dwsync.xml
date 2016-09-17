@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<dwsync>
+<file name="AssetFilesystem.java" server="ftp.hondacustomelite.com/shrine/" local="131109204145191728" remote="131149042800000000" Dst="2" />
+<file name="build-extras.gradle" server="ftp.hondacustomelite.com/shrine/" local="131109204145211694" remote="131149042800000000" Dst="2" />
+<file name="ContentFilesystem.java" server="ftp.hondacustomelite.com/shrine/" local="131109204145221673" remote="131149042800000000" Dst="2" />
+<file name="DirectoryManager.java" server="ftp.hondacustomelite.com/shrine/" local="131109204145241679" remote="131149042800000000" Dst="2" />
+<file name="EncodingException.java" server="ftp.hondacustomelite.com/shrine/" local="131109204145251664" remote="131149042800000000" Dst="2" />
+<file name="FileExistsException.java" server="ftp.hondacustomelite.com/shrine/" local="131109204145271673" remote="131149042800000000" Dst="2" />
+<file name="Filesystem.java" server="ftp.hondacustomelite.com/shrine/" local="131109204145331686" remote="131149042800000000" Dst="2" />
+<file name="FileUtils.java" server="ftp.hondacustomelite.com/shrine/" local="131109204145386731" remote="131149042800000000" Dst="2" />
+<file name="InvalidModificationException.java" server="ftp.hondacustomelite.com/shrine/" local="131109204145401761" remote="131149042800000000" Dst="2" />
+<file name="LocalFilesystem.java" server="ftp.hondacustomelite.com/shrine/" local="131109204145486747" remote="131149042800000000" Dst="2" />
+<file name="LocalFilesystemURL.java" server="ftp.hondacustomelite.com/shrine/" local="131109204145501805" remote="131149042800000000" Dst="2" />
+<file name="NoModificationAllowedException.java" server="ftp.hondacustomelite.com/shrine/" local="131109204145511789" remote="131149042800000000" Dst="2" />
+<file name="PermissionHelper.java" server="ftp.hondacustomelite.com/shrine/" local="131109204145531793" remote="131149042800000000" Dst="2" />
+<file name="TypeMismatchException.java" server="ftp.hondacustomelite.com/shrine/" local="131109204145541817" remote="131149042800000000" Dst="2" />
+</dwsync>

@@ -1,0 +1,8 @@
+<script type="text/javascript" scr= 'app.js'></script>
+<label>Template Sites</label>
+<select ng-controller='themes' >
+	<option ng-repeat='site in web'>
+		<a href= '{{site.http}}' target=_blank> {{site.name}}</a>
+</option>
+</select>
+

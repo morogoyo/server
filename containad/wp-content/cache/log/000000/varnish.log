@@ -1,0 +1,48 @@
+[Fri, 26 Aug 2016 14:53:44 +0000] [http://containad.com/feed/] Connecting to  ...
+[Fri, 26 Aug 2016 14:53:44 +0000] [http://containad.com/feed/] PURGE /feed/ HTTP/1.1
+[Fri, 26 Aug 2016 14:53:44 +0000] [http://containad.com/feed/] Host: containad.com
+[Fri, 26 Aug 2016 14:53:44 +0000] [http://containad.com/feed/] Unable to send request: 0: php_network_getaddresses: getaddrinfo failed: Name or service not known.
+[Fri, 26 Aug 2016 14:53:44 +0000] [http://containad.com/smile-dental-in-orlando-fl-city-state/] Connecting to  ...
+[Fri, 26 Aug 2016 14:53:44 +0000] [http://containad.com/smile-dental-in-orlando-fl-city-state/] PURGE /smile-dental-in-orlando-fl-city-state/ HTTP/1.1
+[Fri, 26 Aug 2016 14:53:44 +0000] [http://containad.com/smile-dental-in-orlando-fl-city-state/] Host: containad.com
+[Fri, 26 Aug 2016 14:53:44 +0000] [http://containad.com/smile-dental-in-orlando-fl-city-state/] Unable to send request: 0: php_network_getaddresses: getaddrinfo failed: Name or service not known.
+[Fri, 26 Aug 2016 14:53:44 +0000] [http://containad.com/([a-z0-9_\-]*?)sitemap([a-z0-9_\-]*)?\.xml] Connecting to  ...
+[Fri, 26 Aug 2016 14:53:44 +0000] [http://containad.com/([a-z0-9_\-]*?)sitemap([a-z0-9_\-]*)?\.xml] PURGE /([a-z0-9_\-]*?)sitemap([a-z0-9_\-]*)?\.xml HTTP/1.1
+[Fri, 26 Aug 2016 14:53:44 +0000] [http://containad.com/([a-z0-9_\-]*?)sitemap([a-z0-9_\-]*)?\.xml] Host: containad.com
+[Fri, 26 Aug 2016 14:53:44 +0000] [http://containad.com/([a-z0-9_\-]*?)sitemap([a-z0-9_\-]*)?\.xml] Unable to send request: 0: php_network_getaddresses: getaddrinfo failed: Name or service not known.
+[Fri, 26 Aug 2016 14:54:22 +0000] [http://containad.com/feed/] Connecting to  ...
+[Fri, 26 Aug 2016 14:54:22 +0000] [http://containad.com/feed/] PURGE /feed/ HTTP/1.1
+[Fri, 26 Aug 2016 14:54:22 +0000] [http://containad.com/feed/] Host: containad.com
+[Fri, 26 Aug 2016 14:54:22 +0000] [http://containad.com/feed/] Unable to send request: 0: php_network_getaddresses: getaddrinfo failed: Name or service not known.
+[Fri, 26 Aug 2016 14:54:22 +0000] [http://containad.com/cheap-dental-clinics-in-orlando-fl-city-state-2/] Connecting to  ...
+[Fri, 26 Aug 2016 14:54:22 +0000] [http://containad.com/cheap-dental-clinics-in-orlando-fl-city-state-2/] PURGE /cheap-dental-clinics-in-orlando-fl-city-state-2/ HTTP/1.1
+[Fri, 26 Aug 2016 14:54:22 +0000] [http://containad.com/cheap-dental-clinics-in-orlando-fl-city-state-2/] Host: containad.com
+[Fri, 26 Aug 2016 14:54:22 +0000] [http://containad.com/cheap-dental-clinics-in-orlando-fl-city-state-2/] Unable to send request: 0: php_network_getaddresses: getaddrinfo failed: Name or service not known.
+[Fri, 26 Aug 2016 14:54:22 +0000] [http://containad.com/([a-z0-9_\-]*?)sitemap([a-z0-9_\-]*)?\.xml] Connecting to  ...
+[Fri, 26 Aug 2016 14:54:22 +0000] [http://containad.com/([a-z0-9_\-]*?)sitemap([a-z0-9_\-]*)?\.xml] PURGE /([a-z0-9_\-]*?)sitemap([a-z0-9_\-]*)?\.xml HTTP/1.1
+[Fri, 26 Aug 2016 14:54:22 +0000] [http://containad.com/([a-z0-9_\-]*?)sitemap([a-z0-9_\-]*)?\.xml] Host: containad.com
+[Fri, 26 Aug 2016 14:54:22 +0000] [http://containad.com/([a-z0-9_\-]*?)sitemap([a-z0-9_\-]*)?\.xml] Unable to send request: 0: php_network_getaddresses: getaddrinfo failed: Name or service not known.
+[Fri, 26 Aug 2016 14:54:50 +0000] [http://containad.com/feed/] Connecting to  ...
+[Fri, 26 Aug 2016 14:54:50 +0000] [http://containad.com/feed/] PURGE /feed/ HTTP/1.1
+[Fri, 26 Aug 2016 14:54:50 +0000] [http://containad.com/feed/] Host: containad.com
+[Fri, 26 Aug 2016 14:54:50 +0000] [http://containad.com/feed/] Unable to send request: 0: php_network_getaddresses: getaddrinfo failed: Name or service not known.
+[Fri, 26 Aug 2016 14:54:50 +0000] [http://containad.com/low-income-dental-clinics-in-orlando-fl-city-state-2/] Connecting to  ...
+[Fri, 26 Aug 2016 14:54:50 +0000] [http://containad.com/low-income-dental-clinics-in-orlando-fl-city-state-2/] PURGE /low-income-dental-clinics-in-orlando-fl-city-state-2/ HTTP/1.1
+[Fri, 26 Aug 2016 14:54:50 +0000] [http://containad.com/low-income-dental-clinics-in-orlando-fl-city-state-2/] Host: containad.com
+[Fri, 26 Aug 2016 14:54:50 +0000] [http://containad.com/low-income-dental-clinics-in-orlando-fl-city-state-2/] Unable to send request: 0: php_network_getaddresses: getaddrinfo failed: Name or service not known.
+[Fri, 26 Aug 2016 14:54:50 +0000] [http://containad.com/([a-z0-9_\-]*?)sitemap([a-z0-9_\-]*)?\.xml] Connecting to  ...
+[Fri, 26 Aug 2016 14:54:50 +0000] [http://containad.com/([a-z0-9_\-]*?)sitemap([a-z0-9_\-]*)?\.xml] PURGE /([a-z0-9_\-]*?)sitemap([a-z0-9_\-]*)?\.xml HTTP/1.1
+[Fri, 26 Aug 2016 14:54:50 +0000] [http://containad.com/([a-z0-9_\-]*?)sitemap([a-z0-9_\-]*)?\.xml] Host: containad.com
+[Fri, 26 Aug 2016 14:54:50 +0000] [http://containad.com/([a-z0-9_\-]*?)sitemap([a-z0-9_\-]*)?\.xml] Unable to send request: 0: php_network_getaddresses: getaddrinfo failed: Name or service not known.
+[Wed, 31 Aug 2016 12:06:05 +0000] [http://containad.com/.*] Connecting to  ...
+[Wed, 31 Aug 2016 12:06:05 +0000] [http://containad.com/.*] PURGE /.* HTTP/1.1
+[Wed, 31 Aug 2016 12:06:05 +0000] [http://containad.com/.*] Host: containad.com
+[Wed, 31 Aug 2016 12:06:05 +0000] [http://containad.com/.*] Unable to send request: 0: php_network_getaddresses: getaddrinfo failed: Name or service not known.
+[Wed, 31 Aug 2016 12:07:46 +0000] [http://containad.com/.*] Connecting to  ...
+[Wed, 31 Aug 2016 12:07:46 +0000] [http://containad.com/.*] PURGE /.* HTTP/1.1
+[Wed, 31 Aug 2016 12:07:46 +0000] [http://containad.com/.*] Host: containad.com
+[Wed, 31 Aug 2016 12:07:46 +0000] [http://containad.com/.*] Unable to send request: 0: php_network_getaddresses: getaddrinfo failed: Name or service not known.
+[Wed, 31 Aug 2016 22:41:01 +0000] [http://containad.com/.*] Connecting to  ...
+[Wed, 31 Aug 2016 22:41:01 +0000] [http://containad.com/.*] PURGE /.* HTTP/1.1
+[Wed, 31 Aug 2016 22:41:01 +0000] [http://containad.com/.*] Host: containad.com
+[Wed, 31 Aug 2016 22:41:01 +0000] [http://containad.com/.*] Unable to send request: 0: php_network_getaddresses: getaddrinfo failed: Name or service not known.

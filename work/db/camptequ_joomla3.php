@@ -1,0 +1,1 @@
+{"resourse":[{"name":"JCE Editor","type":"component"}]}

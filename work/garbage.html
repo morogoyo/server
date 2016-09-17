@@ -1,0 +1,66 @@
+ //new directive and controller
+
+
+
+app.controller('themes',function($scope){    
+
+    $scope.web =[ {
+
+        http:'http://www.rockettheme.com',
+        name:'Rocket Themes'
+     },{
+        http:'http://www.rockettheme.com',
+        name:'test2'
+     },{
+        http:'http://www.rockettheme.com',
+        name:'test3'
+     }]
+  });
+
+app.directive('site', function() {
+	return {
+              restrict:'E',
+
+              templateUrl:'templatesites.html',
+
+              controller: 'themes'
+
+
+
+          };
+
+        });
+
+
+
+//app.controller('internet',function($scope,$http){
+
+	
+
+	 // $scope.name = 'Rene';
+
+
+
+ //  $http.get("http://www.hondacustomelite.com/working/json/rene.txt")
+
+ //  .success(function(response){$scope.name= response.resourse;}),
+
+
+
+//	$http.get("http://www.hondacustomelite.com/working/baylessi_joomla.php")
+
+ //  .success(function(response){$scope.name= response.resourse;})
+
+
+
+// });
+
+   
+
+    
+
+
+
+       
+
+   //ending closing tag

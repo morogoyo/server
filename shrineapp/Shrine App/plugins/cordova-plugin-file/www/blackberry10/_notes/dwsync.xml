@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<dwsync>
+<file name="copyTo.js" server="ftp.hondacustomelite.com/shrine/" local="131109204148192544" remote="131149042800000000" Dst="2" />
+<file name="createEntryFromNative.js" server="ftp.hondacustomelite.com/shrine/" local="131109204148202544" remote="131149042800000000" Dst="2" />
+<file name="FileProxy.js" server="ftp.hondacustomelite.com/shrine/" local="131109204148222529" remote="131149042800000000" Dst="2" />
+<file name="getDirectory.js" server="ftp.hondacustomelite.com/shrine/" local="131109204148242588" remote="131149042800000000" Dst="2" />
+<file name="getFile.js" server="ftp.hondacustomelite.com/shrine/" local="131109204148262533" remote="131149042800000000" Dst="2" />
+<file name="FileSystem.js" server="ftp.hondacustomelite.com/shrine/" local="131109204148232532" remote="131149042800000000" Dst="2" />
+<file name="getMetadata.js" server="ftp.hondacustomelite.com/shrine/" local="131109204148292545" remote="131149042800000000" Dst="2" />
+<file name="getParent.js" server="ftp.hondacustomelite.com/shrine/" local="131109204148302536" remote="131149042800000000" Dst="2" />
+<file name="getFileMetadata.js" server="ftp.hondacustomelite.com/shrine/" local="131109204148272604" remote="131149042800000000" Dst="2" />
+<file name="moveTo.js" server="ftp.hondacustomelite.com/shrine/" local="131109204148382608" remote="131149042800000000" Dst="2" />
+<file name="readAsArrayBuffer.js" server="ftp.hondacustomelite.com/shrine/" local="131109204148397612" remote="131149042800000000" Dst="2" />
+<file name="info.js" server="ftp.hondacustomelite.com/shrine/" local="131109204148312548" remote="131149042800000000" Dst="2" />
+<file name="readAsDataURL.js" server="ftp.hondacustomelite.com/shrine/" local="131109204148422599" remote="131149042800000000" Dst="2" />
+<file name="readAsText.js" server="ftp.hondacustomelite.com/shrine/" local="131109204148437613" remote="131149042800000000" Dst="2" />
+<file name="readAsBinaryString.js" server="ftp.hondacustomelite.com/shrine/" local="131109204148412617" remote="131149042800000000" Dst="2" />
+<file name="removeRecursively.js" server="ftp.hondacustomelite.com/shrine/" local="131109204148472630" remote="131149042800000000" Dst="2" />
+<file name="readEntries.js" server="ftp.hondacustomelite.com/shrine/" local="131109204148447619" remote="131149042800000000" Dst="2" />
+<file name="remove.js" server="ftp.hondacustomelite.com/shrine/" local="131109204148457600" remote="131149042800000000" Dst="2" />
+<file name="requestFileSystem.js" server="ftp.hondacustomelite.com/shrine/" local="131109204148572671" remote="131149042800000000" Dst="2" />
+<file name="requestAllFileSystems.js" server="ftp.hondacustomelite.com/shrine/" local="131109204148487625" remote="131149042800000000" Dst="2" />
+<file name="requestAnimationFrame.js" server="ftp.hondacustomelite.com/shrine/" local="131109204148552726" remote="131149042800000000" Dst="2" />
+<file name="resolveLocalFileSystemURI.js" server="ftp.hondacustomelite.com/shrine/" local="131109204148582655" remote="131149042800000000" Dst="2" />
+<file name="setMetadata.js" server="ftp.hondacustomelite.com/shrine/" local="131109204148592748" remote="131149042800000000" Dst="2" />
+<file name="truncate.js" server="ftp.hondacustomelite.com/shrine/" local="131109204148612659" remote="131149042800000000" Dst="2" />
+<file name="write.js" server="ftp.hondacustomelite.com/shrine/" local="131109204148622671" remote="131149042800000000" Dst="2" />
+</dwsync>

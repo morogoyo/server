@@ -1,0 +1,633 @@
+
+/* main.css */
+
+/* 1   */ /* Utilities */
+/* 2   */ .ispinner {
+/* 3   */   position: relative;
+/* 4   */   width: 30px;
+/* 5   */   height: 30px; }
+/* 6   */   .ispinner .ispinner__blade {
+/* 7   */     position: absolute;
+/* 8   */     left: 44.5%;
+/* 9   */     top: 37%;
+/* 10  */     width: 10%;
+/* 11  */     height: 25%;
+/* 12  */     border-radius: 50%/20%;
+/* 13  */     -webkit-animation: ispinner__blade--fade 1s linear infinite;
+/* 14  */     animation: ispinner__blade--fade 1s linear infinite;
+/* 15  */     -webkit-animation-play-state: paused;
+/* 16  */     animation-play-state: paused; }
+/* 17  */     .ispinner .ispinner__blade:nth-child(1) {
+/* 18  */       -webkit-animation-delay: -1.66667s;
+/* 19  */       animation-delay: -1.66667s;
+/* 20  */       -webkit-transform: rotate(30deg) translate(0, -150%);
+/* 21  */       transform: rotate(30deg) translate(0, -150%); }
+/* 22  */     .ispinner .ispinner__blade:nth-child(2) {
+/* 23  */       -webkit-animation-delay: -1.58333s;
+/* 24  */       animation-delay: -1.58333s;
+/* 25  */       -webkit-transform: rotate(60deg) translate(0, -150%);
+/* 26  */       transform: rotate(60deg) translate(0, -150%); }
+/* 27  */     .ispinner .ispinner__blade:nth-child(3) {
+/* 28  */       -webkit-animation-delay: -1.5s;
+/* 29  */       animation-delay: -1.5s;
+/* 30  */       -webkit-transform: rotate(90deg) translate(0, -150%);
+/* 31  */       transform: rotate(90deg) translate(0, -150%); }
+/* 32  */     .ispinner .ispinner__blade:nth-child(4) {
+/* 33  */       -webkit-animation-delay: -1.41667s;
+/* 34  */       animation-delay: -1.41667s;
+/* 35  */       -webkit-transform: rotate(120deg) translate(0, -150%);
+/* 36  */       transform: rotate(120deg) translate(0, -150%); }
+/* 37  */     .ispinner .ispinner__blade:nth-child(5) {
+/* 38  */       -webkit-animation-delay: -1.33333s;
+/* 39  */       animation-delay: -1.33333s;
+/* 40  */       -webkit-transform: rotate(150deg) translate(0, -150%);
+/* 41  */       transform: rotate(150deg) translate(0, -150%); }
+/* 42  */     .ispinner .ispinner__blade:nth-child(6) {
+/* 43  */       -webkit-animation-delay: -1.25s;
+/* 44  */       animation-delay: -1.25s;
+/* 45  */       -webkit-transform: rotate(180deg) translate(0, -150%);
+/* 46  */       transform: rotate(180deg) translate(0, -150%); }
+/* 47  */     .ispinner .ispinner__blade:nth-child(7) {
+/* 48  */       -webkit-animation-delay: -1.16667s;
+/* 49  */       animation-delay: -1.16667s;
+/* 50  */       -webkit-transform: rotate(210deg) translate(0, -150%);
+
+/* main.css */
+
+/* 51  */       transform: rotate(210deg) translate(0, -150%); }
+/* 52  */     .ispinner .ispinner__blade:nth-child(8) {
+/* 53  */       -webkit-animation-delay: -1.08333s;
+/* 54  */       animation-delay: -1.08333s;
+/* 55  */       -webkit-transform: rotate(240deg) translate(0, -150%);
+/* 56  */       transform: rotate(240deg) translate(0, -150%); }
+/* 57  */     .ispinner .ispinner__blade:nth-child(9) {
+/* 58  */       -webkit-animation-delay: -1s;
+/* 59  */       animation-delay: -1s;
+/* 60  */       -webkit-transform: rotate(270deg) translate(0, -150%);
+/* 61  */       transform: rotate(270deg) translate(0, -150%); }
+/* 62  */     .ispinner .ispinner__blade:nth-child(10) {
+/* 63  */       -webkit-animation-delay: -0.91667s;
+/* 64  */       animation-delay: -0.91667s;
+/* 65  */       -webkit-transform: rotate(300deg) translate(0, -150%);
+/* 66  */       transform: rotate(300deg) translate(0, -150%); }
+/* 67  */     .ispinner .ispinner__blade:nth-child(11) {
+/* 68  */       -webkit-animation-delay: -0.83333s;
+/* 69  */       animation-delay: -0.83333s;
+/* 70  */       -webkit-transform: rotate(330deg) translate(0, -150%);
+/* 71  */       transform: rotate(330deg) translate(0, -150%); }
+/* 72  */     .ispinner .ispinner__blade:nth-child(12) {
+/* 73  */       -webkit-animation-delay: -0.75s;
+/* 74  */       animation-delay: -0.75s;
+/* 75  */       -webkit-transform: rotate(360deg) translate(0, -150%);
+/* 76  */       transform: rotate(360deg) translate(0, -150%); }
+/* 77  */   .ispinner.ispinner--animating .ispinner__blade {
+/* 78  */     -webkit-animation-play-state: running;
+/* 79  */     animation-play-state: running; }
+/* 80  */   .ispinner.ispinner--white .ispinner__blade {
+/* 81  */     background-color: white; }
+/* 82  */   .ispinner.ispinner--gray .ispinner__blade {
+/* 83  */     background-color: #8C8C8C; }
+/* 84  */   .ispinner.ispinner--large {
+/* 85  */     width: 35px;
+/* 86  */     height: 35px; }
+/* 87  */     .ispinner.ispinner--large .ispinner__blade {
+/* 88  */       width: 8.57143%;
+/* 89  */       height: 25.71429%;
+/* 90  */       border-radius: 50%/16.67%; }
+/* 91  */ 
+/* 92  */ @-webkit-keyframes ispinner__blade--fade {
+/* 93  */   0% {
+/* 94  */     opacity: 0.85; }
+/* 95  */   50% {
+/* 96  */     opacity: 0.25; }
+/* 97  */   100% {
+/* 98  */     opacity: 0.25; } }
+/* 99  */ @keyframes ispinner__blade--fade {
+/* 100 */   0% {
+
+/* main.css */
+
+/* 101 */     opacity: 0.85; }
+/* 102 */   50% {
+/* 103 */     opacity: 0.25; }
+/* 104 */   100% {
+/* 105 */     opacity: 0.25; } }
+/* 106 */ 
+/* 107 */ .notifyjs-corner {
+/* 108 */ 	z-index: 100500;
+/* 109 */ }
+/* 110 */ 
+/* 111 */ .FlashMessage {
+/* 112 */     margin: 20px 20px 20px 0;
+/* 113 */     padding: 20px;
+/* 114 */     border: 1px solid #ddd;
+/* 115 */     font-size: 16px;
+/* 116 */ }
+/* 117 */ .FlashMessage--success {
+/* 118 */ 	border: 1px solid #4FBD33;
+/* 119 */ 	background: #68DE4B;
+/* 120 */ }
+/* 121 */ .FlashMessage--error {
+/* 122 */ 	border: 1px solid #BD3333;
+/* 123 */ 	background: #DE4B4B;
+/* 124 */ 	color: #fff;
+/* 125 */ }
+/* 126 */ 
+/* 127 */ .Breadcrumbs {
+/* 128 */ 	padding: 10px;
+/* 129 */     font-size: 14px;
+/* 130 */     border: 1px solid #ddd;
+/* 131 */     border-radius: 10px;
+/* 132 */     margin: 20px 0 10px 0;
+/* 133 */ }
+/* 134 */ .Breadcrumbs > span {
+/* 135 */ 	font-weight: bold;
+/* 136 */ }
+/* 137 */ 
+/* 138 */ .BasicForm__row {
+/* 139 */ 	margin-bottom: 20px;
+/* 140 */ }
+/* 141 */ .BasicForm__row input[type="text"],
+/* 142 */ .BasicForm__row input[type="password"],
+/* 143 */ .BasicForm__row input[type="number"],
+/* 144 */ .BasicForm__row input[type="email"],
+/* 145 */ .BasicForm__row input[type="number"],
+/* 146 */ .BasicForm__row textarea {
+/* 147 */ 	width: 100%;
+/* 148 */ }
+/* 149 */ 
+/* 150 */ .PostMisconfigured {
+
+/* main.css */
+
+/* 151 */ 	background: #fff;
+/* 152 */     padding: 10px 20px;
+/* 153 */     border: 1px solid #ddd;
+/* 154 */ }
+/* 155 */ 
+/* 156 */ /* Popup */
+/* 157 */ .Popup {
+/* 158 */ 
+/* 159 */ }
+/* 160 */ .Popup__container {
+/* 161 */   width: 423px;
+/* 162 */   min-height: 110px;
+/* 163 */   background: #fff;
+/* 164 */   margin: 130px auto;
+/* 165 */   box-shadow: 1px 1px 8px #9cdfff;
+/* 166 */ }
+/* 167 */ .Popup__title-wrap {
+/* 168 */   position: relative;
+/* 169 */   padding: 15px;
+/* 170 */ }
+/* 171 */ .Popup__title-wrap .tb-close-icon {
+/* 172 */   color: #66b4da;
+/* 173 */ }
+/* 174 */ .Popup__close {
+/* 175 */   cursor: pointer;
+/* 176 */ }
+/* 177 */ .Popup__body {
+/* 178 */   width: 383px;
+/* 179 */   padding: 8px 20px;
+/* 180 */   text-align: justify;
+/* 181 */ }
+/* 182 */ 
+/* 183 */ 
+/* 184 */ .Dialog__overlay {
+/* 185 */   display: none;
+/* 186 */   background: rgba(0, 0, 0, 0.7);
+/* 187 */     width: 100%;
+/* 188 */     height: 100%;
+/* 189 */     position: fixed;
+/* 190 */     top: 0;
+/* 191 */     z-index: 100000;
+/* 192 */ }
+/* 193 */ .Dialog, .Popup {
+/* 194 */   display: none;
+/* 195 */   position: fixed;
+/* 196 */   top: 0;
+/* 197 */   left: 0;
+/* 198 */   right: 0;
+/* 199 */   bottom: 0;
+/* 200 */   z-index: 100001;
+
+/* main.css */
+
+/* 201 */   overflow-y: auto;
+/* 202 */ }
+/* 203 */ .Dialog__container {
+/* 204 */   width: 783px;
+/* 205 */   min-height: 400px;
+/* 206 */   background: #fff;
+/* 207 */   margin: 40px auto;
+/* 208 */ }
+/* 209 */ .Dialog__title-wrap {
+/* 210 */   position: relative;
+/* 211 */   border-bottom: 1px solid #ddd;
+/* 212 */   padding: 15px;
+/* 213 */ }
+/* 214 */ .Dialog__title {
+/* 215 */     font-weight: bold;
+/* 216 */     font-size: 14px;
+/* 217 */ }
+/* 218 */ .Dialog__title-wrap .tb-close-icon {
+/* 219 */     top: 9px;
+/* 220 */     right: 5px;
+/* 221 */     cursor: pointer;
+/* 222 */ }
+/* 223 */ .Dialog__body {
+/* 224 */   position: relative;
+/* 225 */   width: 783px;
+/* 226 */ }
+/* 227 */ .Dialog__body > .ispinner {
+/* 228 */   margin: 130px auto;
+/* 229 */ }
+/* 230 */ 
+/* 231 */ 
+/* 232 */ .full-width {
+/* 233 */ 	width: 100%;
+/* 234 */ }
+/* 235 */ 
+/* 236 */ .fl_l {
+/* 237 */ 	float: left;
+/* 238 */ }
+/* 239 */ .fl_r {
+/* 240 */ 	float: right;
+/* 241 */ }
+/* 242 */ .clearfix:after {
+/* 243 */ 	visibility: hidden;
+/* 244 */ 	display: block;
+/* 245 */ 	content: "";
+/* 246 */ 	clear: both;
+/* 247 */ 	height: 0;
+/* 248 */ }
+/* 249 */ 
+/* 250 */ .Posting {
+
+/* main.css */
+
+/* 251 */ 	text-align: center;
+/* 252 */ }
+/* 253 */ .Posting__header {
+/* 254 */ 	font-size: 4em;
+/* 255 */ }
+/* 256 */ .Posting__subheader {
+/* 257 */ 	font-size: 2em;
+/* 258 */ }
+/* 259 */ 
+/* 260 */ .Posting__buttons {
+/* 261 */ 	margin-top: 40px;
+/* 262 */ }
+/* 263 */ .wp-core-ui .Posting__post-button, .wp-core-ui .Posting__page-button {
+/* 264 */     font-size: 2.6em;
+/* 265 */     padding: 40px;
+/* 266 */     height: auto;
+/* 267 */ }
+/* 268 */ .wp-core-ui .Posting__post-button {
+/* 269 */ 	margin-right: 80px;
+/* 270 */ }
+/* 271 */ 
+/* 272 */ 
+/* 273 */ /* Posting Form */
+/* 274 */ .PostForm {
+/* 275 */ 	padding-right: 20px;
+/* 276 */ }
+/* 277 */ 
+/* 278 */ .PostForm--error {
+/* 279 */ 	color: #CC332A !important;
+/* 280 */ }
+/* 281 */ .PostForm--error input {
+/* 282 */ 	border-color: #FFA39D !important;
+/* 283 */ }
+/* 284 */ .PostForm__error {
+/* 285 */ 	display: block;
+/* 286 */ 	padding-top: 10px;
+/* 287 */     font-size: 14px;
+/* 288 */     color: #CC332A;
+/* 289 */ }
+/* 290 */ 
+/* 291 */ .PostForm__title-wrap {
+/* 292 */ 	margin-top: 20px;
+/* 293 */ }
+/* 294 */ 
+/* 295 */ .PostForm__title-wrap input,
+/* 296 */ .PostForm__name-wrap input {
+/* 297 */ 	padding: 3px 8px;
+/* 298 */     font-size: 1.7em;
+/* 299 */     line-height: 100%;
+/* 300 */     height: 1.7em;
+
+/* main.css */
+
+/* 301 */     width: 100%;
+/* 302 */     outline: 0;
+/* 303 */     margin: 0 0 3px;
+/* 304 */     background-color: #fff;
+/* 305 */ }
+/* 306 */ 
+/* 307 */ .keyword_input {
+/* 308 */ 	padding: 3px 8px;
+/* 309 */ 	font-size: 1.7em;
+/* 310 */ 	line-height: 100%;
+/* 311 */ 	width: 100%;
+/* 312 */ 	outline: 0;
+/* 313 */ 	margin: 0 0 3px;
+/* 314 */ 	background-color: #fff;
+/* 315 */ }
+/* 316 */ 
+/* 317 */ .keyword_input input {
+/* 318 */ 	height: 1.7em;
+/* 319 */ }
+/* 320 */ 
+/* 321 */ .PostForm__name-wrap input {
+/* 322 */ 	padding: 3px 8px;
+/* 323 */     font-size: 1.7em;
+/* 324 */     line-height: 100%;
+/* 325 */     height: 1.7em;
+/* 326 */     width: 100%;
+/* 327 */     outline: 0;
+/* 328 */     margin: 0 0 3px;
+/* 329 */     background-color: #fff;
+/* 330 */ }
+/* 331 */ 
+/* 332 */ .PostForm__buttons {
+/* 333 */ 	margin-top: 20px;
+/* 334 */ }
+/* 335 */ 
+/* 336 */ .PostForm__boxes {
+/* 337 */ 	padding-top: 40px;
+/* 338 */ }
+/* 339 */ 
+/* 340 */ .PostForm__boxes .form-table:not(:first-child) {
+/* 341 */     border-top: 1px dashed #ddd;
+/* 342 */ }
+/* 343 */ 
+/* 344 */ /* Pixabay */
+/* 345 */ .PixabayKeyWarning {
+/* 346 */ 	padding: 10px;
+/* 347 */     background: #eee;
+/* 348 */     border: 1px solid #ddd;
+/* 349 */     color: #555;
+/* 350 */ }
+
+/* main.css */
+
+/* 351 */ 
+/* 352 */ .PixabayWrap {
+/* 353 */ }
+/* 354 */ 
+/* 355 */ .PixabaySearch {
+/* 356 */ 	padding: 15px;
+/* 357 */ 	border-bottom: 1px solid #ddd;
+/* 358 */     box-shadow: 0 1px 4px rgba(0,0,0,0.1);
+/* 359 */ }
+/* 360 */ .PixabaySearch > input {
+/* 361 */ 	width: 684px;
+/* 362 */ }
+/* 363 */ 
+/* 364 */ #pixabay-search-images, #youtube-search-videos {
+/* 365 */ 	overflow-y: auto;
+/* 366 */     height: 400px;
+/* 367 */ }
+/* 368 */ #pixabay-search-images .ispinner, #youtube-search-videos .ispinner {
+/* 369 */ 	display: none;
+/* 370 */ 	margin: 130px auto;
+/* 371 */ }
+/* 372 */ 
+/* 373 */ #pixabay-images, #youtube-videos {
+/* 374 */ 	padding: 10px;
+/* 375 */ }
+/* 376 */ 
+/* 377 */ .Pixabay__image, .Youtube__video {
+/* 378 */     width: 140px;
+/* 379 */     text-align: center;
+/* 380 */     line-height: 154px;
+/* 381 */     height: 154px;
+/* 382 */     margin-right: 10px;
+/* 383 */     margin-bottom: 10px;
+/* 384 */     background: #f7f7f7;
+/* 385 */     cursor: pointer;
+/* 386 */     position: relative;
+/* 387 */     overflow: hidden;
+/* 388 */ }
+/* 389 */ .Youtube__video {
+/* 390 */   width: 368px;
+/* 391 */   height: 200px;
+/* 392 */ }
+/* 393 */ .Youtube__video:nth-child(2n) {
+/* 394 */   margin-right: 0;
+/* 395 */ }
+/* 396 */ .Pixabay__image:nth-child(5n) {
+/* 397 */ 	margin-right: 0;
+/* 398 */ }
+/* 399 */ .Pixabay__image img {
+/* 400 */ 	width: 140px;
+
+/* main.css */
+
+/* 401 */ 	vertical-align: middle;
+/* 402 */ }
+/* 403 */ .Youtube__video img {
+/* 404 */   width: 368px;
+/* 405 */   vertical-align: middle;
+/* 406 */ }
+/* 407 */ .Pixabay__image i.fa, .Youtube__video i.fa {
+/* 408 */ 	display: none;
+/* 409 */ 	position: absolute;
+/* 410 */     top: 5px;
+/* 411 */     left: 5px;
+/* 412 */     font-size: 24px;
+/* 413 */     background: #0085BA;
+/* 414 */     color: #fff;
+/* 415 */     border-radius: 50%;
+/* 416 */     border: 1px solid #006799;
+/* 417 */     padding: 6px;
+/* 418 */ }
+/* 419 */ .Pixabay__image--selected, .Youtube__video--selected {
+/* 420 */ 
+/* 421 */ }
+/* 422 */ .Pixabay__image--selected i.fa, .Youtube__video--selected i.fa {
+/* 423 */ 	display: block;
+/* 424 */ }
+/* 425 */ 
+/* 426 */ .Youtube__title {
+/* 427 */   text-overflow: ellipsis;
+/* 428 */   overflow: hidden;
+/* 429 */   position: absolute;
+/* 430 */   background: rgba(0, 0, 0, 0.21);
+/* 431 */   color: #fff;
+/* 432 */   bottom: 0;
+/* 433 */   line-height: normal;
+/* 434 */   width: 100%;
+/* 435 */   padding: 10px;
+/* 436 */   box-sizing: border-box;
+/* 437 */ }
+/* 438 */ 
+/* 439 */ .Pixabay__wrapper {
+/* 440 */   position: absolute;
+/* 441 */   left: 0;
+/* 442 */   top: 0;
+/* 443 */   background: rgba(0, 0, 0, 0.12);
+/* 444 */ }
+/* 445 */ .Pixabay__wrapper > .ispinner {
+/* 446 */   margin: 220px auto 0;
+/* 447 */ }
+/* 448 */ 
+/* 449 */ .Pixabay__body {
+/* 450 */   padding: 10px;
+
+/* main.css */
+
+/* 451 */ }
+/* 452 */ 
+/* 453 */ .Pixabay__footer {
+/* 454 */ 	height: 30px;
+/* 455 */ 	padding: 15px;
+/* 456 */     border-top: 1px solid #ddd;
+/* 457 */     box-shadow: 0 -1px 4px rgba(0,0,0,0.1);
+/* 458 */ }
+/* 459 */ 
+/* 460 */ .Pixabay__status {
+/* 461 */ 	font-size: 14px;
+/* 462 */     padding-top: 7px;
+/* 463 */ }
+/* 464 */ 
+/* 465 */ .Pixabay__buttons {
+/* 466 */ 	position: relative;
+/* 467 */ }
+/* 468 */ 
+/* 469 */ .Pixabay--empty {
+/* 470 */ 	padding: 180px;
+/* 471 */ 	text-align: center;
+/* 472 */ 	font-size: 16px;
+/* 473 */ 	color: #777;
+/* 474 */ }
+/* 475 */ 
+/* 476 */ .Pixabay__shortcode-wrap {
+/* 477 */   	display: none;
+/* 478 */   	position: absolute;
+/* 479 */     bottom: 40px;
+/* 480 */     left: -58px;
+/* 481 */     background: #fff;
+/* 482 */     border: 1px solid #ddd;
+/* 483 */     padding: 10px;
+/* 484 */     box-shadow: 0 1px 4px rgba(0,0,0,0.2);
+/* 485 */ }
+/* 486 */ 
+/* 487 */ #exif-addresses {
+/* 488 */     padding: 10px 0 0;
+/* 489 */ }
+/* 490 */ .ExifAddress {
+/* 491 */     display: inline-block;
+/* 492 */     padding: 5px 25px 5px 10px;
+/* 493 */     background: #0085BA;
+/* 494 */     color: #fff;
+/* 495 */     border-radius: 5px;
+/* 496 */     font-weight: bold;
+/* 497 */     font-size: 12px;
+/* 498 */     cursor: pointer;
+/* 499 */     position: relative;
+/* 500 */     margin-right: 5px;
+
+/* main.css */
+
+/* 501 */     margin-top: 5px;
+/* 502 */ }
+/* 503 */ .ExifAddress__delete {
+/* 504 */     color: #8CBFD4 !important;
+/* 505 */     top: 4px;
+/* 506 */ }
+/* 507 */ .ExifAddress__delete:hover {
+/* 508 */     color: #fff !important;
+/* 509 */ }
+/* 510 */ 
+/* 511 */ #edit-slug-box input {
+/* 512 */     font-size: 13px;
+/* 513 */     font-weight: 400;
+/* 514 */     height: 22px;
+/* 515 */     margin: 0;
+/* 516 */     width: 16em;
+/* 517 */ }
+/* 518 */ 
+/* 519 */ #tagsinput {
+/* 520 */     width: 180px;
+/* 521 */ }
+/* 522 */ 
+/* 523 */ .editor-hidden {
+/* 524 */   display: none;
+/* 525 */ }
+/* 526 */ 
+/* 527 */ /* Projects */
+/* 528 */ .WHProject--highlight {
+/* 529 */   background: #FBFFB6 !important;
+/* 530 */ }
+/* 531 */ 
+/* 532 */ /* Word AI */
+/* 533 */ .text-center {
+/* 534 */   text-align: center;
+/* 535 */ }
+/* 536 */ 
+/* 537 */ .form-group {
+/* 538 */   margin-bottom: 10px;
+/* 539 */ }
+/* 540 */ .form-group:after {
+/* 541 */   content: ".";
+/* 542 */   display: block;
+/* 543 */   height: 0;
+/* 544 */   clear: both;
+/* 545 */   visibility: hidden;
+/* 546 */ }
+/* 547 */ .form-group .form-column-4 {
+/* 548 */   float: left;
+/* 549 */   width: 33%;
+/* 550 */ }
+
+/* main.css */
+
+/* 551 */ .form-group .control-label {
+/* 552 */   display: block;
+/* 553 */   margin-bottom: 5px;
+/* 554 */   font-weight: 600;
+/* 555 */ }
+/* 556 */ .form-group .form-control {
+/* 557 */   width: 100%;
+/* 558 */ }
+/* 559 */ .form-group .help-block {
+/* 560 */   display: block;
+/* 561 */   margin-top: 10px;
+/* 562 */   color: #666;
+/* 563 */   font-size: 12px;
+/* 564 */ }
+/* 565 */ 
+/* 566 */ /* Paginations */
+/* 567 */ .workhorse-page .pagination-links {
+/* 568 */     display: block;
+/* 569 */     padding: 10px 0;
+/* 570 */ }
+/* 571 */ 
+/* 572 */ /* Buttons */
+/* 573 */ a.button-primary.button-danger,
+/* 574 */ a.button-primary.button-danger:focus {
+/* 575 */     background: #ba3400;
+/* 576 */     border-color: #aa2f00 #993100 #992a00;
+/* 577 */     -webkit-box-shadow: 0 1px 0 #992300;
+/* 578 */     box-shadow: 0 1px 0 #992300;
+/* 579 */     color: #fff;
+/* 580 */     text-decoration: none;
+/* 581 */     text-shadow: 0 -1px 1px #992a00,1px 0 1px #993400,0 1px 1px #992a00,-1px 0 1px #992700;
+/* 582 */ }
+/* 583 */ 
+/* 584 */ a.button-primary.button-danger:hover {
+/* 585 */     background: #c24800;
+/* 586 */     border-color: #994700;
+/* 587 */     color: #fff;
+/* 588 */ }
+/* 589 */ 
+/* 590 */ a.button-primary.button-danger:active {
+/* 591 */     background: #aa2f00;
+/* 592 */     border-color: #992a00;
+/* 593 */     -webkit-box-shadow: inset 0 2px 0 #993100;
+/* 594 */     box-shadow: inset 0 2px 0 #993100;
+/* 595 */     vertical-align: top;
+/* 596 */ }
+/* 597 */ 
