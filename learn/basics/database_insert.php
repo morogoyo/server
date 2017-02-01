@@ -2,7 +2,7 @@
 //1. create a data base connection
    $dbhost= "localhost";
    $dbuser = "morogoyo";
-   $dbpass = "perdon1979";
+   $dbpass = "******";
    $dbname= "widget_corp";
    $connection = mysqli_connect($dbhost,$dbuser,$dbpass,$dbname);
 
