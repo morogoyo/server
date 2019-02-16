@@ -1,8 +1,8 @@
 <?php
 
-//$serverName = "216.172.165.115";
+//$serverName = "";
 //$userName = "bahiashr_trey";
-//$password= "Beast$4414";
+//$password= "";
 //$dbName="bahiashr_joomla";
 
 
