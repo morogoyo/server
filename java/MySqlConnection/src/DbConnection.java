@@ -36,7 +36,7 @@ public class DbConnection {
 			try {
 				
 				//connection 
-				con = DriverManager.getConnection("localhost/morogoyo_java", "morogoyo_user1", "asshole1%");
+				con = DriverManager.getConnection("localhost/morogoyo_java", "morogoyo_user1", "");
 				if(con != null )
 				{
 				
